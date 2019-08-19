@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan1-FormPage</title>
+</head>
+<body>
+
+    <h1><b>Buat Account Baru!</b></h1>
+
+    <h2>Sign Up Form</h2>
+
+    <br>
+
+    <form>
+        <p>
+            <label for="FirstName">First Name:</label>
+            <br>
+            <input id="FirstName" name="FirstName" type="text">
+        </p>
+
+        <p>
+            <label for="LastName">Last Name:</label>
+            <br>
+            <input id="LastName" name="LastName" type="text">
+        </p>
+
+        <p>
+            <label for="Gender">Gender:</label>
+            <br>
+            <input id="Gender" name="Gender" type="radio"> Male</input>
+            <br>
+            <input id="Gender" name="Gender" type="radio"> Female</input>
+            <br>
+            <input id="Gender" name="Gender" type="radio"> Other</input>
+
+        </p>
+
+        <p>
+            <label for="Nationality">Nationality:</label>
+            <br>
+            <input id="Nationality" name="Nationality" type="text" list="NationalName">
+            <datalist id="NationalName">
+                <select name="National">
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Japan</option>
+                    <option value="Malaysia">Korea</option>
+                </select>
+            </datalist>
+        </p>
+
+
+        <p>
+            <label for="Leanguage">Leanguage Spoken:</label>
+            <br>
+            <input id="Bahasa" name="Bahasa" type="checkbox"> Bahasa Indonesia</input>
+            <br>
+            <input id="Bahasa" name="Bahasa" type="checkbox"> English</input>
+            <br>
+            <input id="Bahasa" name="Bahasa" type="checkbox"> Other</input>
+        </p>
+
+        <p>
+            <label for="bio">Bio:</label>
+            <br>
+            <textarea id="bio" name="bio" type="text"></textarea>
+            <br>
+            <button id="Sign" name="SignUp" type="button">Sign Up</button>
+        </p>
+
+    </form>
+</body>
+</html>
